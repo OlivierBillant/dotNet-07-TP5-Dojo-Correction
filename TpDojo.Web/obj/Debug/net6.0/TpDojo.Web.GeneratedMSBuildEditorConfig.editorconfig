@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TpDojo.Web
+build_property.RootNamespace = TpDojo.Web
+build_property.ProjectDir = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Armes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJtZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Armes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJtZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Armes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJtZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Armes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJtZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Armes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJtZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Samourais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Ftb3VyYWlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Samourais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Ftb3VyYWlzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Samourais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Ftb3VyYWlzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Samourais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Ftb3VyYWlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Samourais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Ftb3VyYWlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5s0py0pvrq
