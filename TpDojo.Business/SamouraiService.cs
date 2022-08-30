@@ -10,10 +10,12 @@ using TpDojo.Dal.Abstractions;
 public class SamouraiService
 {
     private readonly ISamouraiAccessLayer samouraiAccessLayer;
+    private readonly IArmeAccessLayer armeAccessLayer;
 
-    public SamouraiService(ISamouraiAccessLayer samouraiAccessLayer)
+    public SamouraiService(ISamouraiAccessLayer samouraiAccessLayer, IArmeAccessLayer armeAccessLayer)
     {
         this.samouraiAccessLayer = samouraiAccessLayer;
+        this.armeAccessLayer = armeAccessLayer; 
     }
 
     public async Task<List<SamouraiDto>> GetSamouraisAsync()
@@ -27,20 +29,27 @@ public class SamouraiService
 
     public async Task<SamouraiDto> GetSamouraiByIdAsync(int? id)
     {
-        var arme = await this.samouraiAccessLayer.GetByIdAsync(id);
-        return SamouraiDto.FromSamourai(arme);
+        var samourai = await this.samouraiAccessLayer.GetByIdAsync(id);
+        return SamouraiDto.FromSamourai(samourai);
     }
 
-    public async Task AddSamouraiAsync(SamouraiDto armeDto)
+    public async Task AddSamouraiAsync(SamouraiDto samouraiDto, int? armeId)
     {
-        var arme = SamouraiDto.ToSamourai(armeDto);
-        await this.samouraiAccessLayer.AddAsync(arme);
+        var samourai = SamouraiDto.ToSamourai(samouraiDto);
+
+        // Recherche de l'arme correspondant à l'id.
+        var arme = await this.armeAccessLayer.GetByIdAsync(armeId);
+
+        if (arme is not null)
+            samourai.Arme = arme;
+
+        await this.samouraiAccessLayer.AddAsync(samourai);
     }
 
-    public async Task UpdateSamouraiAsync(SamouraiDto armeDto)
+    public async Task UpdateSamouraiAsync(SamouraiDto samouraiDto)
     {
-        var arme = SamouraiDto.ToSamourai(armeDto);
-        await this.samouraiAccessLayer.UpdateAsync(arme);
+        var samourai = SamouraiDto.ToSamourai(samouraiDto);
+        await this.samouraiAccessLayer.UpdateAsync(samourai);
     }
 
     public async Task RemoveSamouraiAsync(int id)

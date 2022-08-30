@@ -1,7 +1,8 @@
-﻿@model SamouraiViewModel
+﻿@model SamouraiFormViewModel
 
 @{
     ViewData["Title"] = "Edit";
+    var armes = ViewData["armes"] as List<ArmeViewModel> ?? new List<ArmeViewModel>();
 }
 
 <h1>Edit</h1>
@@ -24,6 +25,24 @@
                 <span asp-validation-for="Nom" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ArmeId" class="control-label"></label>
+                <select asp-for="ArmeId" class="form-control">
+                    <option value="">Aucune Arme</option>
+                    @foreach (var arme in armes)
+                    {
+                        if (arme.Id == Model.ArmeId)
+                        {
+                            <option value="@arme.Id" selected="selected">@arme.Nom</option>
+                        }
+                        else
+                        {
+                            <option value="@arme.Id">@arme.Nom</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="ArmeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
@@ -35,5 +54,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

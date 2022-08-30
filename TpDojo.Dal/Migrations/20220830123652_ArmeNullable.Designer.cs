@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TpDojo.Dal;
 
@@ -11,9 +12,10 @@ using TpDojo.Dal;
 namespace TpDojo.Dal.Migrations
 {
     [DbContext(typeof(TpDojoContext))]
-    partial class TpDojoContextModelSnapshot : ModelSnapshot
+    [Migration("20220830123652_ArmeNullable")]
+    partial class ArmeNullable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

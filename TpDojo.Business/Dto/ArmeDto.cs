@@ -9,9 +9,9 @@ public class ArmeDto
     public string Nom { get; set; }
     public int Degats { get; set; }
 
-    internal static ArmeDto FromArme(Arme? arme)
+    internal static ArmeDto? FromArme(Arme? arme)
         => arme is null 
-        ? new() 
+        ? null
         : new ArmeDto { Id = arme.Id, Nom = arme.Nom, Degats = arme.Degats };
 
     internal static List<ArmeDto> FromArmes(List<Arme> armes)
