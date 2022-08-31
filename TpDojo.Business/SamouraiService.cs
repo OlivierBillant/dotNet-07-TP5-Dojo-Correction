@@ -46,9 +46,13 @@ public class SamouraiService
         await this.samouraiAccessLayer.AddAsync(samourai);
     }
 
-    public async Task UpdateSamouraiAsync(SamouraiDto samouraiDto)
+    public async Task UpdateSamouraiAsync(SamouraiDto samouraiDto, int? armeId)
     {
         var samourai = SamouraiDto.ToSamourai(samouraiDto);
+        var arme = await this.armeAccessLayer.GetByIdAsync(armeId);
+
+        if (arme is not null)
+            samourai.Arme = arme;
         await this.samouraiAccessLayer.UpdateAsync(samourai);
     }
 

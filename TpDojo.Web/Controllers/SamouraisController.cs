@@ -89,7 +89,7 @@ public class SamouraisController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, SamouraiViewModel samourai)
+    public async Task<IActionResult> Edit(int id, SamouraiFormViewModel samourai)
     {
         if (id != samourai.Id)
         {
@@ -100,7 +100,7 @@ public class SamouraisController : Controller
         {
             try
             {
-                await this.samouraiService.UpdateSamouraiAsync(SamouraiViewModel.ToSamouraiDto(samourai));
+                await this.samouraiService.UpdateSamouraiAsync(SamouraiFormViewModel.ToSamouraiDto(samourai), samourai.ArmeId);
             }
             catch (DbUpdateConcurrencyException)
             {
