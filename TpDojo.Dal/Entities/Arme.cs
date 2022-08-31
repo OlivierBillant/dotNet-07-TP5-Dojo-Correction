@@ -1,8 +1,15 @@
 ﻿namespace TpDojo.Dal.Entities;
 
-public class Arme
+using System.ComponentModel.DataAnnotations;
+
+public class Arme : ADataObject
 {
-    public int Id { get; set; }
+    [Required]
     public string Nom { get; set; }
+
     public int Degats { get; set; }
+
+    public string? ImageUrl { get; set; }
+
+    public Samourai? Samourai { get; set; }
 }

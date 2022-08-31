@@ -10,10 +10,7 @@ public class ArmesController : Controller
 {
     private readonly ArmeService armeService;
 
-    public ArmesController(ArmeService armeService)
-    {
-        this.armeService = armeService;
-    }
+    public ArmesController(ArmeService armeService) => this.armeService = armeService;
 
     // GET: Armes
     public async Task<IActionResult> Index()
@@ -37,7 +34,7 @@ public class ArmesController : Controller
             return this.NotFound();
         }
 
-        return this.View(arme);
+        return this.View(ArmeViewModel.FromArmeDto(arme));
     }
 
     // GET: Armes/Create
@@ -128,7 +125,7 @@ public class ArmesController : Controller
             return this.NotFound();
         }
 
-        return this.View(arme);
+        return this.View(ArmeViewModel.FromArmeDto(arme));
     }
 
     // POST: Armes/Delete/5
@@ -136,7 +133,14 @@ public class ArmesController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        await this.armeService.RemoveArmeAsync(id);
+        var result = await this.armeService.RemoveArmeAsync(id);
+        if (!result)
+        {
+            this.ModelState.AddModelError("", "L'arme est associée à un samourai, veuillez supprimer la relation");
+            var arme = await this.armeService.GetArmeByIdAsync(id);
+
+            return this.View(ArmeViewModel.FromArmeDto(arme));
+        }
         return this.RedirectToAction(nameof(Index));
     }
 

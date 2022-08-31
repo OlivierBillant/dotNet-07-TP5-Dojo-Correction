@@ -1,0 +1,16 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tp.Dojo.Api
+build_property.RootNamespace = Tp.Dojo.Api
+build_property.ProjectDir = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\Tp.Dojo.Api\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\Tp.Dojo.Api
+build_property._RazorSourceGeneratorDebug = 

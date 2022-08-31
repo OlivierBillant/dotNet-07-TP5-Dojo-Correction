@@ -1,19 +1,23 @@
 ﻿namespace TpDojo.Web.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using TpDojo.Web.Extensions;
 using TpDojo.Web.Models;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        this._logger = logger;
-    }
+    public HomeController(ILogger<HomeController> logger) => this._logger = logger;
 
     public IActionResult Index()
     {
+
+        /*var dateAout = Extensions.Août(31, 2022);
+
+        var newDateAout = 31.Août(2022);*/
+
+
         return this.View();
     }
 

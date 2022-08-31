@@ -13,19 +13,22 @@ internal class SamouraiAccessLayer : ISamouraiAccessLayer
 {
     private readonly TpDojoContext context;
 
-    public SamouraiAccessLayer(TpDojoContext context)
-    {
-        this.context = context;
-    }
+    public SamouraiAccessLayer(TpDojoContext context) => this.context = context;
 
     public async Task<List<Samourai>> GetAllAsync()
-        => await this.context.Samourai.Include(s => s.Arme).ToListAsync();
+        => await this.context.Samourai
+                                .Include(s => s.Arme)
+                                .Include(s => s.ArtMartiaux)
+                                .ToListAsync();
 
     public async Task<bool> ExistsAsync(int id)
         => await this.context.Samourai.AnyAsync(a => a.Id == id);
 
     public async Task<Samourai?> GetByIdAsync(int? id)
-    => await this.context.Samourai.Include(s => s.Arme).FirstOrDefaultAsync(a => a.Id == id);
+    => await this.context.Samourai
+                                .Include(s => s.Arme)
+                                .Include(s => s.ArtMartiaux)
+                                .FirstOrDefaultAsync(a => a.Id == id);
 
     public async Task AddAsync(Samourai arme)
     {
@@ -42,6 +45,8 @@ internal class SamouraiAccessLayer : ISamouraiAccessLayer
 
         samouraiToUpdate.Nom = samourai.Nom;
         samouraiToUpdate.Force = samourai.Force;
+        samouraiToUpdate.Arme = samourai.Arme;
+        samouraiToUpdate.ArtMartiaux = samourai.ArtMartiaux;
 
         this.context.Update(samouraiToUpdate);
         await this.context.SaveChangesAsync();

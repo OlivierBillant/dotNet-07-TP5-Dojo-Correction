@@ -2,16 +2,25 @@
 
 @{
     ViewData["Title"] = "Create";
-    var armes = ViewData["armes"] as List<ArmeViewModel> ?? new List<ArmeViewModel>();
+    var armesItems = (this.ViewData["Armes"] as List<ArmeViewModel> ?? new List<ArmeViewModel>())
+                    .Select(a =>
+                        new SelectListItem
+                                {
+                                    Text = $"{a.Nom} ({a.Degats})",
+                                    Value = a.Id.ToString()
+                                }).ToList();
+    armesItems.Insert(0, new SelectListItem { Value = string.Empty, Text = "Aucune arme" });
+
+        var artMartiauxItems = (this.ViewData["ArtMartiaux"] as List<ArtMartialViewModel> ?? new List<ArtMartialViewModel>())
+                    .Select(a =>
+                        new SelectListItem
+                                {
+                                    Text = a.Nom,
+                                    Value = a.Id.ToString()
+                                }).ToList();
+
+
 }
-    @*var armesItems = (this.ViewData["Armes"] as List<ArmeViewModel> ?? new List<ArmeViewModel>())
-                   .Select(a =>
-                       new SelectListItem
-                               {
-                                   Text = $"{a.Nom} ({a.Degats})",
-                                   Value = a.Id.ToString()
-                               }).ToList();
-    armesItems.Insert(0, new SelectListItem { Value = string.Empty, Text = "Aucune arme" });*@
 
 <h1>Create</h1>
 
@@ -22,31 +31,28 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Force" class="control-label"></label>
-                <input asp-for="Force" class="form-control" />
-                <span asp-validation-for="Force" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Nom" class="control-label"></label>
                 <input asp-for="Nom" class="form-control" />
                 <span asp-validation-for="Nom" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="ArmeId" class="control-label"></label>
-                <select asp-for="ArmeId" class="form-control">
-                        <option value="">Aucune Arme</option>
-                    @foreach (var arme in armes)
-                    {
-                        <option value="@arme.Id">@arme.Nom</option>
-                    }
-                </select>
-                <span asp-validation-for="ArmeId" class="text-danger"></span>
+                <label asp-for="Force" class="control-label"></label>
+                <input asp-for="Force" class="form-control" />
+                <span asp-validation-for="Force" class="text-danger"></span>
             </div>
-           @* <div class="form-group">
+           
+            <div class="form-group">
                 <label asp-for="ArmeId" class="control-label"></label>
                 <select asp-for="ArmeId" class="form-control" asp-items="@armesItems"></select>
                 <span asp-validation-for="ArmeId" class="text-danger"></span>
-            </div>*@
+            </div>
+            <div class="form-group">
+                <label asp-for="ArtMartiauxIds" class="control-label"></label>
+                <select asp-for="ArtMartiauxIds" class="form-control" asp-items="@artMartiauxItems"></select>
+                <span asp-validation-for="ArtMartiauxIds" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

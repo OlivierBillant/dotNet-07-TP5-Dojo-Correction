@@ -1,0 +1,23 @@
+﻿@page "/armes"
+
+<h3>Armes</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Dégats</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var arme in this.armes)
+        {
+            <tr>
+                <td>@arme.Nom</td>
+                <td>@arme.Degats</td>
+                <td><img src="@arme.ImageUrl" width="50" /></td>
+            </tr>
+        }
+    </tbody>
+</table>

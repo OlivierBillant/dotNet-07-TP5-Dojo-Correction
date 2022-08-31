@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hqSIIxRkzzqpIAx3MsLRYLXtb5wPzwfRiDPcNuqXvYM=",
+  "Source": "Tp.Dojo.Api",
+  "BasePath": "_content/Tp.Dojo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

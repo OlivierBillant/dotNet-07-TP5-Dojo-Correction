@@ -23,7 +23,7 @@ namespace TpDojo.Dal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("TpDojo.Dal.Entities.Arme", b =>
+            modelBuilder.Entity("TpDojo.Dal.Entities.Armes", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -40,7 +40,7 @@ namespace TpDojo.Dal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Arme");
+                    b.ToTable("Armes");
                 });
 
             modelBuilder.Entity("TpDojo.Dal.Entities.Samourai", b =>
@@ -70,13 +70,13 @@ namespace TpDojo.Dal.Migrations
 
             modelBuilder.Entity("TpDojo.Dal.Entities.Samourai", b =>
                 {
-                    b.HasOne("TpDojo.Dal.Entities.Arme", "Arme")
+                    b.HasOne("TpDojo.Dal.Entities.Armes", "Armes")
                         .WithMany()
                         .HasForeignKey("ArmeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Arme");
+                    b.Navigation("Armes");
                 });
 #pragma warning restore 612, 618
         }

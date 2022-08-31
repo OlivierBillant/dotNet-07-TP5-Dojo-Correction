@@ -1,0 +1,42 @@
+﻿@page "/art-martiaux"
+
+<h3>Art Martiaux</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var artMartial in this.artMartiaux)
+        {
+            <tr>
+
+                @if (artMartial.Editing)
+                {
+                    <td>
+                        <input type="text" @bind="@artMartial.Nom" />
+                    </td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="_ => this.ValidateRowAsync(artMartial.Id)">Valider</button>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @artMartial.Nom
+                    </td>
+                    <td>
+                        <button class="btn btn-success" @onclick="_ => this.ToRowEdit(artMartial.Id)">Editer</button>
+                    </td>
+                }
+
+
+
+            </tr>
+
+        }
+    </tbody>
+</table>

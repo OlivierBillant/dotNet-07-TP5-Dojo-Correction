@@ -5,9 +5,10 @@ using TpDojo.Business.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddBusinessServices();
 
+// Equivalent à :
+// BusinessExtensions.AddBusinessServices(builder.Services);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,0 +1,25 @@
+﻿@page "/samourais"
+
+<h3>Samourais</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Force</th>
+            <th>Arme</th>
+            <th>Art martiaux</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var samourai in this.samourais)
+        {
+            <tr>
+                <td>@samourai.Nom</td>
+                <td>@samourai.Force</td>
+                <td>@samourai.ArmeDisplay</td>
+                <td>@samourai.ArtMartiauxDisplay</td>
+            </tr>
+        }
+    </tbody>
+</table>

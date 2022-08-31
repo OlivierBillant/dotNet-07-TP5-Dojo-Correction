@@ -13,13 +13,10 @@ internal class ArmeAccessLayer : IArmeAccessLayer
 {
     private readonly TpDojoContext context;
 
-    public ArmeAccessLayer(TpDojoContext context)
-    {
-        this.context = context;
-    }
+    public ArmeAccessLayer(TpDojoContext context) => this.context = context;
 
     public async Task<List<Arme>> GetAllAsync()
-        => await this.context.Arme.ToListAsync();
+        => await this.context.Arme.Include(a => a.Samourai).ToListAsync();
 
     public async Task<bool> ExistsAsync(int id)
         => await this.context.Arme.AnyAsync(a => a.Id == id);
@@ -42,6 +39,7 @@ internal class ArmeAccessLayer : IArmeAccessLayer
         
         armeToUpdate.Nom = arme.Nom;
         armeToUpdate.Degats = arme.Degats;
+        armeToUpdate.ImageUrl = arme.ImageUrl;
 
         this.context.Update(armeToUpdate);
         await this.context.SaveChangesAsync();
@@ -57,4 +55,10 @@ internal class ArmeAccessLayer : IArmeAccessLayer
 
         await this.context.SaveChangesAsync();
     }
+
+    public async Task<List<Arme>> GetArmesWithoutSamouraiAsync()
+        => await this.context.Arme.Where(a => a.Samourai == null).ToListAsync();
+
+    public async Task<bool> HasSamouraiAssociated(int id)
+        => await this.context.Arme.AnyAsync(a => a.Id == id && a.Samourai != null);
 }

@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TpDojo.Blazor
+build_property.RootNamespace = TpDojo.Blazor
+build_property.ProjectDir = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Blazor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Armes/ListeArmes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJtZXNcTGlzdGVBcm1lcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/ArtMartiaux/ListeArtMartiaux.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0TWFydGlhdXhcTGlzdGVBcnRNYXJ0aWF1eC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Samourais/ListeSamourais.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Ftb3VyYWlzXExpc3RlU2Ftb3VyYWlzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nb1aik2c41
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-11zhj978ya
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

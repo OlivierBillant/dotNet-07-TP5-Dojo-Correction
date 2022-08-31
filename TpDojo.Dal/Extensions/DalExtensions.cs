@@ -16,6 +16,7 @@ public static class DalExtensions
 
         services.AddTransient<IArmeAccessLayer, ArmeAccessLayer>();
         services.AddTransient<ISamouraiAccessLayer, SamouraiAccessLayer>();
+        services.AddTransient<IArtMartialAccessLayer, ArtMartialAccessLayer>();
 
 
         services.AddDbContext<TpDojoContext>(

@@ -15,6 +15,7 @@ public static class BusinessExtensions
     {
         services.AddTransient<ArmeService>();
         services.AddTransient<SamouraiService>();
+        services.AddTransient<ArtMartialService>();
         services.AddDalServices();
     }
 }

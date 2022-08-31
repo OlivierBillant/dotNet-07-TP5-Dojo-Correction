@@ -2,7 +2,38 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <a asp-controller="Samourais" asp-action="Index">
+            <div class="card" style="width: 250px;">
+                <img src="https://www.giantbomb.com/a/uploads/scale_small/15/155745/2182364-df9f253627edb9cfa9a42ab4337c5702.jpg" class="card-img-top" alt="Samourai">
+                <div class="card-body">
+                    <h5 class="card-title">Gestion des samourais</h5>
+                    <p class="card-text">Modules de gestion des samourais</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col">
+        <a asp-controller="Armes" asp-action="Index">
+            <div class="card" style="width: 250px;">
+                <img src="https://i.etsystatic.com/17857814/r/il/a0b9e0/1660312888/il_1588xN.1660312888_417a.jpg" class="card-img-top" alt="Armes">
+                <div class="card-body">
+                    <h5 class="card-title">Gestion de armes</h5>
+                    <p class="card-text">Modules de gestion des armes.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col">
+        <a asp-controller="ArtMartiaux" asp-action="Index">
+            <div class="card" style="width: 250px;">
+                <img src="https://vidooly.com/blog/wp-content/uploads/2018/04/Wallpapers-1440x900.jpg" class="card-img-top" alt="Art martiaux">
+                <div class="card-body">
+                    <h5 class="card-title">Gestion de art martiaux</h5>
+                    <p class="card-text">Modules de gestion des art martiaux.</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>

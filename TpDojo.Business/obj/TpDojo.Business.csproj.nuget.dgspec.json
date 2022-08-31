@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Business\\TpDojo.Business.csproj": {}
+    "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Business\\TpDojo.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Business\\TpDojo.Business.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Business\\TpDojo.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Business\\TpDojo.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Business\\TpDojo.Business.csproj",
         "projectName": "TpDojo.Business",
-        "projectPath": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Business\\TpDojo.Business.csproj",
-        "packagesPath": "C:\\Users\\obillant2022\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Business\\obj\\",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Business\\TpDojo.Business.csproj",
+        "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\obillant2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\TpDojo.Dal.csproj": {
-                "projectPath": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\TpDojo.Dal.csproj"
+              "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\TpDojo.Dal.csproj": {
+                "projectPath": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\TpDojo.Dal.csproj"
               }
             }
           }
@@ -69,18 +73,22 @@
         }
       }
     },
-    "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\TpDojo.Dal.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\TpDojo.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\TpDojo.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\TpDojo.Dal.csproj",
         "projectName": "TpDojo.Dal",
-        "projectPath": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\TpDojo.Dal.csproj",
-        "packagesPath": "C:\\Users\\obillant2022\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\obillant2022\\Documents\\DotNet\\TP\\DotNet.TP\\DotNet.07.TP5Dojo-Correction\\TpDojo.Dal\\obj\\",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\TpDojo.Dal.csproj",
+        "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\Cours ASP.NET\\TPs\\TpDojo\\TpDojo.Dal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\obillant2022\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

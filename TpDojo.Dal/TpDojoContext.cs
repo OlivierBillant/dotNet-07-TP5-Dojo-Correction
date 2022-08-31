@@ -13,4 +13,6 @@ internal class TpDojoContext : DbContext
     public DbSet<Arme> Arme => this.Set<Arme>();
 
     public DbSet<Samourai> Samourai => this.Set<Samourai>();
+
+    public DbSet<ArtMartial> ArtMartiaux => this.Set<ArtMartial>();
 }

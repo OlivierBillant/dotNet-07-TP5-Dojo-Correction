@@ -22,6 +22,21 @@ namespace TpDojo.Dal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("ArtMartialSamourai", b =>
+                {
+                    b.Property<int>("ArtMartiauxId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SamouraisId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArtMartiauxId", "SamouraisId");
+
+                    b.HasIndex("SamouraisId");
+
+                    b.ToTable("ArtMartialSamourai");
+                });
+
             modelBuilder.Entity("TpDojo.Dal.Entities.Arme", b =>
                 {
                     b.Property<int>("Id")
@@ -33,6 +48,9 @@ namespace TpDojo.Dal.Migrations
                     b.Property<int>("Degats")
                         .HasColumnType("int");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nom")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -40,6 +58,23 @@ namespace TpDojo.Dal.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Arme");
+                });
+
+            modelBuilder.Entity("TpDojo.Dal.Entities.ArtMartial", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Nom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ArtMartiaux");
                 });
 
             modelBuilder.Entity("TpDojo.Dal.Entities.Samourai", b =>
@@ -62,18 +97,40 @@ namespace TpDojo.Dal.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ArmeId");
+                    b.HasIndex("ArmeId")
+                        .IsUnique()
+                        .HasFilter("[ArmeId] IS NOT NULL");
 
                     b.ToTable("Samourai");
+                });
+
+            modelBuilder.Entity("ArtMartialSamourai", b =>
+                {
+                    b.HasOne("TpDojo.Dal.Entities.ArtMartial", null)
+                        .WithMany()
+                        .HasForeignKey("ArtMartiauxId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TpDojo.Dal.Entities.Samourai", null)
+                        .WithMany()
+                        .HasForeignKey("SamouraisId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("TpDojo.Dal.Entities.Samourai", b =>
                 {
                     b.HasOne("TpDojo.Dal.Entities.Arme", "Arme")
-                        .WithMany()
-                        .HasForeignKey("ArmeId");
+                        .WithOne("Samourai")
+                        .HasForeignKey("TpDojo.Dal.Entities.Samourai", "ArmeId");
 
                     b.Navigation("Arme");
+                });
+
+            modelBuilder.Entity("TpDojo.Dal.Entities.Arme", b =>
+                {
+                    b.Navigation("Samourai");
                 });
 #pragma warning restore 612, 618
         }
