@@ -19,8 +19,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Armes/DetailsArmes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJtZXNcRGV0YWlsc0FybWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Armes/ListeArmes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJtZXNcTGlzdGVBcm1lcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/ArtMartiaux/DetailsArtMartiaux.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0TWFydGlhdXhcRGV0YWlsc0FydE1hcnRpYXV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/ArtMartiaux/ListeArtMartiaux.razor]
@@ -37,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Samourais/DetailsSamourais.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Ftb3VyYWlzXERldGFpbHNTYW1vdXJhaXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.07.TP5Dojo-Correction/TpDojo.Blazor/Pages/Samourais/ListeSamourais.razor]

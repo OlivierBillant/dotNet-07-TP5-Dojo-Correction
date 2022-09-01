@@ -23,8 +23,8 @@ public class SamouraiViewModel
     public string ArmeDisplay => this.Arme switch
     {
         null => "Aucune arme",
-        { Degats: < 30 } => "Arme inutile",
-        _ => this.Arme.Display
+/*        { Degats: < 30 } => "Arme inutile",
+*/        _ => this.Arme.Display
     };
 
     public string ArtMartiauxDisplay => $"{string.Join(", ", this.ArtMartiaux.Take(10).Select(am => am.Nom))} {this.ArtMartiauxSurplu}";

@@ -1,0 +1,26 @@
+﻿@page "/armes/{ArmeId:int}"
+@using TpDojo.Blazor.ViewModels
+@using TpDojo.Business
+
+<h3>DetailsArmes</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Dégats</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@arme.Nom</td>
+            <td>@arme.Degats</td>
+            <td><img src="@arme.ImageUrl" width="50" /></td>
+            <td><a href="@($"/armes")" class="btn btn-warning">Retour</a></td>
+
+        </tr>
+    </tbody>
+</table>
+
+

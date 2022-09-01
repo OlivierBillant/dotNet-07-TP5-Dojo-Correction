@@ -1,0 +1,22 @@
+﻿@page "/art-martiaux/{ArtMartialId:int}"
+@using TpDojo.Blazor.ViewModels
+@using TpDojo.Business
+
+<h3>DetailsArtMartiaux</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@artMartial.Nom</td>
+            <td><a href="@($"/art-martiaux")" class="btn btn-warning">Retour</a></td>
+
+        </tr>
+    </tbody>
+</table>
+
+
