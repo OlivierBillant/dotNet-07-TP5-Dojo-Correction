@@ -26,3 +26,17 @@ C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Dal\obj\Debug\ne
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.pdb
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.genruntimeconfig.cache
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Dal\obj\Debug\net6.0\ref\TpDojo.Dal.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\refint\TpDojo.Dal.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.pdb
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\bin\Debug\net6.0\TpDojo.Dal.deps.json
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\bin\Debug\net6.0\TpDojo.Dal.runtimeconfig.json
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\bin\Debug\net6.0\TpDojo.Dal.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\bin\Debug\net6.0\TpDojo.Dal.pdb
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.csproj.AssemblyReference.cache
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.AssemblyInfoInputs.cache
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.AssemblyInfo.cs
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.csproj.CoreCompileInputs.cache
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\TpDojo.Dal.genruntimeconfig.cache
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Dal\obj\Debug\net6.0\ref\TpDojo.Dal.dll

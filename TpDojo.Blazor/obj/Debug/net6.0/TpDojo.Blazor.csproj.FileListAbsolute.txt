@@ -264,3 +264,6 @@ C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Blazor\obj\Debug
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Blazor\obj\Debug\net6.0\TpDojo.Blazor.pdb
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Blazor\obj\Debug\net6.0\TpDojo.Blazor.genruntimeconfig.cache
 C:\Users\Administrateur\Desktop\Cours ASP.NET\TPs\TpDojo\TpDojo.Blazor\obj\Debug\net6.0\ref\TpDojo.Blazor.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Blazor\obj\Debug\net6.0\TpDojo.Blazor.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Blazor\obj\Debug\net6.0\refint\TpDojo.Blazor.dll
+C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.07.TP5Dojo-Correction\TpDojo.Blazor\obj\Debug\net6.0\TpDojo.Blazor.pdb
